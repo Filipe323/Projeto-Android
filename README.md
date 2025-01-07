@@ -97,8 +97,69 @@ Quando um utilizador comenta um jogo:
 - **Reutilização de código** com ViewModels partilhados por múltiplas Views.
 
 ---
+## 4. Funcionalidades Implementadas ⚙️
 
-Queres que eu avance para a próxima secção do relatório ou há algum ponto nesta secção que gostavas de aprofundar?
+A aplicação conta com diversas funcionalidades essenciais que garantem uma experiência completa e intuitiva para o utilizador.  
+Estas funcionalidades foram projetadas para atender aos requisitos do projeto, com integração direta ao Firebase Firestore.
 
+---
+
+### 📋 Lista de Funcionalidades:
+- **🔐 Autenticação de Utilizador (Login/Registo):**  
+  - Os utilizadores podem criar uma conta e fazer login através de autenticação com email e password.  
+  - A validação de campos e mensagens de erro informam o utilizador de forma clara.  
+  - **Firebase Authentication** é utilizado para gerir a autenticação.  
+  - Após o login, o utilizador é redirecionado para a tela principal (`MainActivity`).  
+
+- **💬 Comentários nos Jogos:**  
+  - Os utilizadores podem adicionar comentários aos jogos através de um formulário intuitivo.  
+  - Os comentários são guardados no Firestore e exibidos em tempo real, mesmo que o utilizador saia da aplicação e volte mais tarde.  
+  - Utiliza `RecyclerView` para apresentar a lista de comentários de forma dinâmica.  
+
+- **📜 Listagem de Jogos:**  
+  - Uma lista de jogos é apresentada na `MainActivity`, permitindo ao utilizador selecionar um jogo para ver os detalhes e os comentários associados.  
+
+- **🔥 Integração com Firebase Firestore:**  
+  - A aplicação comunica diretamente com o **Firestore** para guardar e carregar dados.  
+  - Os comentários e informações de cada jogo são persistidos no Firestore, garantindo uma experiência de utilizador consistente.  
+
+---
+
+### 🎨 Personalização da Interface:  
+- **Tema Visual:**  
+  A interface foi personalizada com base em elementos gráficos que remetem à nostalgia dos jogos retro. A tela de login apresenta um fundo personalizado (`background_login`) que destaca a aplicação visualmente.  
+  - Botões e campos de texto possuem cores, margens e padding ajustados para garantir **usabilidade** e **legibilidade**.  
+
+---
+
+## 5. Requisitos Técnicos Atendidos ✅  
+
+A aplicação cumpre com os requisitos técnicos estabelecidos inicialmente, cobrindo tanto funcionalidades essenciais quanto práticas de desenvolvimento.  
+
+---
+
+### 🗂️ Requisitos Funcionais:  
+- **Registo e Login de Utilizadores.**  
+- **Adição de Comentários a Jogos.**  
+- **Persistência de Dados com Firebase Firestore.**  
+- **Listagem Dinâmica de Jogos e Comentários.**  
+
+---
+
+### 🧱 Requisitos Não Funcionais:  
+- **Arquitetura MVVM (Model-View-ViewModel)** garantindo separação de responsabilidades.  
+- **Interface Intuitiva e Visualmente Atraente.**  
+- **Acessibilidade e Experiência do Utilizador.**  
+- **Segurança na Autenticação (Firebase Authentication).**  
+
+---
+
+### 🎯 Cumprimento dos Requisitos:
+A aplicação encontra-se em conformidade com os requisitos estabelecidos, garantindo funcionalidade, escalabilidade e organização de código.  
+No entanto, algumas otimizações futuras podem ser feitas, como melhorias na lógica de `ViewModel` e possíveis animações de transição para aprimorar a experiência do utilizador.
+
+---
+
+👉 **Seguindo para o próximo ponto, queres que inclua detalhes sobre testes ou mantenha o foco nas tecnologias e ferramentas utilizadas?**  
 
 

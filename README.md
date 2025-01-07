@@ -49,7 +49,7 @@ Este projeto segue o padrão **MVVM (Model-View-ViewModel)**, que permite uma cl
 A utilização deste modelo facilita a manutenção e expansão do projeto, permitindo adicionar novas funcionalidades sem comprometer a estrutura existente.  
 
 ---
-## 3. Arquitetura e Organização do Projeto 📐
+## 3. Arquitetura e Organização do Projeto 
 
 A aplicação foi desenvolvida com base na arquitetura **MVVM (Model-View-ViewModel)**, promovendo a separação de responsabilidades e facilitando a manutenção e escalabilidade do projeto.
 

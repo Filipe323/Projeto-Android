@@ -154,12 +154,6 @@ A aplicação cumpre com os requisitos técnicos estabelecidos inicialmente, cob
 
 ---
 
-### 🎯 Cumprimento dos Requisitos:
-A aplicação encontra-se em conformidade com os requisitos estabelecidos, garantindo funcionalidade, escalabilidade e organização de código.  
-No entanto, algumas otimizações futuras podem ser feitas, como melhorias na lógica de `ViewModel` e possíveis animações de transição para aprimorar a experiência do utilizador.
-
----
-
 👉 **Seguindo para o próximo ponto, queres que inclua detalhes sobre testes ou mantenha o foco nas tecnologias e ferramentas utilizadas?**  
 
 

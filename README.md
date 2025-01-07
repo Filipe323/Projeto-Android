@@ -152,7 +152,8 @@ A aplicação cumpre com os requisitos técnicos estabelecidos inicialmente, cob
 - **Acessibilidade e Experiência do Utilizador.**  
 - **Segurança na Autenticação (Firebase Authentication).**  
 
----## 6. Metodologia de Desenvolvimento 🚀  
+---
+## 6. Metodologia de Desenvolvimento 🚀  
 
 Para o desenvolvimento da aplicação, foi utilizada a **metodologia ágil**, permitindo flexibilidade e adaptações ao longo do ciclo de desenvolvimento.  
 

@@ -49,6 +49,56 @@ Este projeto segue o padrão **MVVM (Model-View-ViewModel)**, que permite uma cl
 A utilização deste modelo facilita a manutenção e expansão do projeto, permitindo adicionar novas funcionalidades sem comprometer a estrutura existente.  
 
 ---
+## 3. Arquitetura e Organização do Projeto 📐
 
-👉 **Próximo Passo:**  
-- No ponto seguinte, vamos detalhar a **arquitetura e organização do projeto**, explicando a estrutura de pastas e os ficheiros principais.  
+A aplicação foi desenvolvida com base na arquitetura **MVVM (Model-View-ViewModel)**, promovendo a separação de responsabilidades e facilitando a manutenção e escalabilidade do projeto.
+
+### 🏗️ Estrutura Geral do Projeto:
+A estrutura do projeto está organizada de forma a manter uma clara divisão entre as diferentes camadas.
+
+---
+
+### 🧩 Descrição das Camadas:
+- **Model (Modelo):**  
+  Contém as **classes de dados** que representam as entidades do sistema, como `Comment` e `Game`.   
+  - Exemplo: `Comment.kt` define a estrutura dos comentários.
+
+- **ViewModel:**  
+  A camada `ViewModel` atua como um intermediário entre a `View` e os dados (Model). Gere a lógica de negócio e comunica com o repositório para buscar ou guardar dados no Firestore.  
+  - Exemplo: `DetailViewModel.kt` é responsável por carregar e adicionar comentários.
+
+- **View (UI):**  
+  A camada `UI` contém as **Activities** e Adapters, sendo responsável por renderizar a interface e reagir às interações do utilizador.  
+  - Exemplo: `DetailActivity.kt` exibe os comentários e permite adicionar novos.
+
+- **Repository (Repositório):**  
+  Os repositórios fazem a **ponte entre o ViewModel e o Firestore**. Centralizam o acesso aos dados, garantindo que a lógica de acesso a dados é consistente e reutilizável.  
+  - Exemplo: `CommentRepository.kt` lida com a adição e leitura de comentários no Firestore.
+
+- **Utils (Utilitários):**  
+  Contém classes auxiliares e helpers, como `FirestoreHelper`, para simplificar a interação com o Firebase.
+
+---
+
+### 📄 Exemplo Prático:
+Quando um utilizador comenta um jogo:
+1. O `DetailActivity` captura o input.  
+2. Envia o comentário para o `DetailViewModel`.  
+3. O `ViewModel` comunica com o `CommentRepository` para guardar o comentário.  
+4. O `FirestoreHelper` é utilizado para interagir diretamente com o Firestore.  
+5. Após o sucesso, o comentário é exibido no `RecyclerView` através do `CommentAdapter`.
+
+---
+
+### 🎯 Vantagens da Arquitetura MVVM:
+- **Separação de responsabilidades.**  
+- **Facilidade de teste e manutenção.**  
+- **Escalabilidade** à medida que novas funcionalidades são adicionadas.  
+- **Reutilização de código** com ViewModels partilhados por múltiplas Views.
+
+---
+
+Queres que eu avance para a próxima secção do relatório ou há algum ponto nesta secção que gostavas de aprofundar?
+
+
+

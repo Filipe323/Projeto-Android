@@ -252,19 +252,8 @@ Durante o desenvolvimento da aplicação, foi utilizado um conjunto de tecnologi
   - Permite a integração de funcionalidades que buscam jogos por nome, melhorando a experiência do utilizador.  
 # Estrutura do Projeto - Aplicação de Opiniões de Jogos
 
-```mermaid
-graph TD
-    A[LoginActivity] --> B[MainActivity]
-    B --> C[DetailActivity]
-    B --> D[GameListAdapter]
-    C --> E[CommentAdapter]
-    C --> F[DetailViewModel]
-    F --> G[FirestoreHelper]
-    F --> H[FirebaseAuthHelper]
-    G --> I[Firebase Firestore]
-    H --> J[Firebase Authentication]
-    B --> K[SteamApiService]
-    K --> L[Steam Web API]
+![Diagrama do Projeto](https://github.com/Filipe323/Projeto-Android/blob/main/mermaid-diagram-2025-01-08-181339.png)
+
 
 # Dificuldades Encontradas
 

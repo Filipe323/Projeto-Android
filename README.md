@@ -252,6 +252,7 @@ Durante o desenvolvimento da aplicação, foi utilizado um conjunto de tecnologi
   - Permite a integração de funcionalidades que buscam jogos por nome, melhorando a experiência do utilizador.  
 # Estrutura do Projeto - Aplicação de Opiniões de Jogos
 
+```mermaid
 graph TD
     A[LoginActivity] --> B[MainActivity]
     B --> C[DetailActivity]

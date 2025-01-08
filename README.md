@@ -258,37 +258,37 @@ Durante o desenvolvimento da aplicação, foi utilizado um conjunto de tecnologi
 # Dificuldades Encontradas
 
 
-## 1. Integração com Firebase
+##  Integração com Firebase
 A integração com o Firebase apresentou alguns desafios, especialmente na configuração do **Firestore** e do **Firebase Authentication**.  
 - **Problema**: Configuração inicial do Firestore e autenticação anónima.  
 - **Solução**: Consulta da documentação oficial do Firebase e testes incrementais para validar a persistência de dados e o fluxo de autenticação.  
 
-## 2. Implementação do Padrão MVVM
+##  Implementação do Padrão MVVM
 Embora o padrão **MVVM** tenha facilitado a separação de responsabilidades, a sua implementação inicial exigiu tempo para compreender a ligação entre o **ViewModel**, **View** e **Model**.  
 - **Problema**: Dificuldade em entender a relação entre as camadas e a atualização de dados na UI.  
 - **Solução**: Revisão de exemplos práticos, tutorais e refatoração gradual do código existente para adotar este padrão corretamente.  
 
-## 3. Comunicação com a API da Steam
+##  Comunicação com a API da Steam
 A integração com a **Steam API** envolveu desafios técnicos, principalmente no que diz respeito a chamadas assíncronas e manipulação de dados JSON.  
 - **Problema**: Falhas na obtenção de resultados e estruturação de dados retornados.  
 - **Solução**: Utilização da biblioteca **Retrofit** em conjunto com **Coroutines** para garantir chamadas assíncronas de forma eficiente e segura.  
 
-## 4. Manipulação de RecyclerView
+##  Manipulação de RecyclerView
 A implementação do **RecyclerView** para exibição de listas de jogos e comentários foi desafiadora, especialmente no que diz respeito à atualização dinâmica de dados.  
 - **Problema**: Atualização dos dados em tempo real sem bloquear a UI.  
 - **Solução**: Uso do **LiveData** para observar e atualizar automaticamente a interface sempre que ocorrem mudanças na base de dados.  
 
-## 5. Design da Interface
+##  Design da Interface
 Criar uma interface visualmente apelativa e funcional exigiu ajustes e revisões constantes.  
 - **Problema**: Dificuldade em alinhar elementos visuais e garantir responsividade.  
 - **Solução**: Utilização de **ConstraintLayout** e personalização de botões e caixas de texto com o **Material Design**.  
 
-## 6. Gestão de Erros e Debugging
+## Gestão de Erros e Debugging
 Durante o desenvolvimento, surgiram vários erros que dificultaram a execução correta da aplicação.  
 - **Problema**: Exceções inesperadas ao interagir com o Firestore ou ao fazer login.  
 - **Solução**: Adição de **Toast Messages** e `try-catch` para capturar e exibir mensagens de erro detalhadas, facilitando a identificação e resolução dos problemas.  
 
-### 4. Conclusões  
+###  Conclusão
 
 O desenvolvimento desta aplicação permitiu consolidar conhecimentos sobre a integração de diferentes tecnologias, como o **Firebase** para autenticação e base de dados, bem como a utilização do padrão **MVVM** para uma separação mais clara entre a interface do utilizador e a lógica de negócio.  
 

@@ -288,3 +288,25 @@ Durante o desenvolvimento, surgiram vários erros que dificultaram a execução 
 - **Problema**: Exceções inesperadas ao interagir com o Firestore ou ao fazer login.  
 - **Solução**: Adição de **Toast Messages** e `try-catch` para capturar e exibir mensagens de erro detalhadas, facilitando a identificação e resolução dos problemas.  
 
+### 4. Conclusões  
+
+O desenvolvimento desta aplicação permitiu consolidar conhecimentos sobre a integração de diferentes tecnologias, como o **Firebase** para autenticação e base de dados, bem como a utilização do padrão **MVVM** para uma separação mais clara entre a interface do utilizador e a lógica de negócio.  
+
+Durante o projeto, foi possível compreender a importância de uma arquitetura bem estruturada na escalabilidade e manutenção do código. A implementação de funcionalidades como o registo, login e adição de comentários proporcionou uma experiência prática e enriquecedora.  
+
+**Pontos Positivos:**  
+- A aplicação está funcional, com autenticação e persistência de dados em tempo real.  
+- A utilização de coroutines permitiu uma execução eficiente e fluida, sem bloquear a interface do utilizador.  
+- A interface gráfica foi personalizada de forma apelativa, proporcionando uma experiência agradável ao utilizador.  
+
+**Desafios Superados:**  
+- A integração inicial com o Firebase exigiu tempo e pesquisa, mas foi concluída com sucesso após a consulta de documentação e tutoriais.  
+- A implementação do padrão MVVM exigiu reorganização do código, mas resultou numa aplicação mais modular e de fácil manutenção.  
+
+**Possíveis Melhorias Futuras:**  
+- Expandir a funcionalidade de pesquisa de jogos com uma integração mais robusta da API da Steam.  
+- Implementar notificações push para alertar os utilizadores sobre novos comentários em jogos que seguem.  
+- Melhorar o sistema de autenticação, adicionando suporte a login com redes sociais (Google, Facebook).  
+
+Este projeto proporcionou uma experiência prática valiosa, reforçando habilidades técnicas e promovendo uma compreensão mais profunda sobre o desenvolvimento de aplicações Android.  
+

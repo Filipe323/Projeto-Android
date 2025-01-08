@@ -265,7 +265,7 @@ graph TD
     H --> J[Firebase Authentication]
     B --> K[SteamApiService]
     K --> L[Steam Web API]
-
+---
 
 ### Explicação do Esquema:
 - **LoginActivity**: É o ponto de entrada da aplicação. Permite login e registo de utilizadores.  

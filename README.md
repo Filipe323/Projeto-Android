@@ -266,4 +266,27 @@ graph TD
     B --> K[SteamApiService]
     K --> L[Steam Web API]
 
+# Modelo de Dados - Aplicação de Opiniões de Jogos
+
+```mermaid
+erDiagram
+    USER {
+        String userId
+        String email
+        String password
+    }
+    GAME {
+        String gameId
+        String name
+        String description
+    }
+    COMMENT {
+        String commentId
+        String gameId
+        String userId
+        String commentText
+        Timestamp timestamp
+    }
+    GAME ||--o{ COMMENT : "possui"
+    USER ||--o{ COMMENT : "adiciona"
 

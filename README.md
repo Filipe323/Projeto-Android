@@ -266,9 +266,8 @@ graph TD
     B --> K[SteamApiService]
     K --> L[Steam Web API]
 
-<!-- Fim do diagrama -->
-
 # Dificuldades Encontradas
+
 
 ## 1. Integração com Firebase
 A integração com o Firebase apresentou alguns desafios, especialmente na configuração do **Firestore** e do **Firebase Authentication**.  

@@ -250,4 +250,19 @@ Durante o desenvolvimento da aplicação, foi utilizado um conjunto de tecnologi
 - **Steam Web API**  
   - API utilizada para listar jogos e obter dados em tempo real diretamente da Steam.  
   - Permite a integração de funcionalidades que buscam jogos por nome, melhorando a experiência do utilizador.  
+# Estrutura do Projeto - Aplicação de Opiniões de Jogos
+
+```mermaid
+graph TD
+    A[LoginActivity] --> B[MainActivity]
+    B --> C[DetailActivity]
+    B --> D[GameListAdapter]
+    C --> E[CommentAdapter]
+    C --> F[DetailViewModel]
+    F --> G[FirestoreHelper]
+    F --> H[FirebaseAuthHelper]
+    G --> I[Firebase Firestore]
+    H --> J[Firebase Authentication]
+    B --> K[SteamApiService]
+    K --> L[Steam Web API]
 

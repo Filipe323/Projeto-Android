@@ -266,7 +266,8 @@ graph TD
     B --> K[SteamApiService]
     K --> L[Steam Web API]
 
----
+<!-- Fim do diagrama -->
+
 # Dificuldades Encontradas
 
 ## 1. Integração com Firebase

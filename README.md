@@ -266,3 +266,22 @@ graph TD
     B --> K[SteamApiService]
     K --> L[Steam Web API]
 
+
+### Explicação do Esquema:
+- **LoginActivity**: É o ponto de entrada da aplicação. Permite login e registo de utilizadores.  
+- **MainActivity**: Tela principal que exibe a lista de jogos disponíveis.  
+- **DetailActivity**: Mostra os detalhes de um jogo específico e permite adicionar comentários.  
+- **GameListAdapter**: Adapta a lista de jogos para ser exibida no RecyclerView.  
+- **CommentAdapter**: Adapta os comentários de um jogo específico.  
+- **DetailViewModel**: Lógica de negócios para carregar e enviar comentários.  
+- **FirestoreHelper**: Interage diretamente com o Firebase Firestore para guardar e carregar dados.  
+- **FirebaseAuthHelper**: Gere a autenticação dos utilizadores com Firebase Authentication.  
+- **SteamApiService**: Realiza a comunicação com a Steam Web API para buscar jogos.  
+
+### Como Usar:
+1. Copia o código acima.  
+2. Cola no ficheiro `README.md` do GitHub ou num editor de Markdown compatível.  
+3. Se estiveres a usar o GitHub, a visualização do esquema será gerada automaticamente.  
+
+Se precisares de um formato diferente (como um diagrama em imagem), posso gerar um para ti!
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "450295569553",
+    "project_id": "comentariosjogopt01",
+    "storage_bucket": "comentariosjogopt01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450295569553:android:ac8f96457b9aa09cfbf330",
+        "android_client_info": {
+          "package_name": "com.example.aplicaoopiniopt01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTNaEevL_zta8BCWH1xrUT5F-jjXKWz28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

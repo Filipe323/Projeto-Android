@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Aplicação de Opiniões de Jogos – Relatório de Desenvolvimento
 1. Introdução
    A Aplicação de Opiniões de Jogos foi desenvolvida com o objetivo de criar uma plataforma onde utilizadores podem registar-se, fazer login e deixar comentários sobre jogos. A aplicação permite que outros utilizadores visualizem estas opiniões, promovendo a partilha de experiências e sugestões.
